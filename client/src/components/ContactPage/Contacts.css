@@ -1,0 +1,64 @@
+.left{
+    text-align: center;
+    position: absolute;
+    left:0px;
+    width:50%;
+    background-color: rgb(7, 22, 159);
+    height:100%;
+    color:white;
+}
+.container{
+    text-align: center;
+    position: absolute;
+    right:0px;
+    width:50%;
+    top:30%;
+}
+.contactUs{
+    top:50%;
+    font-size: 70px;
+}
+.con{
+    top: 15%;
+    margin: 30px;
+    padding: 15px;
+}
+.conIcon{
+    size: 300px;
+}
+form{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px;
+    overflow: hidden;
+}
+.btn {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(7, 22, 159);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(16, 16, 16);
+  }
+  
+  .btn:hover {background-color:  rgb(3, 13, 105)}
+  
+  .btn:active {
+    background-color:rgb(3, 13, 105);
+    box-shadow: 0 5px rgb(16, 16, 16);
+    transform: translateY(4px);
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px rgb(7, 7, 7);
+  }
