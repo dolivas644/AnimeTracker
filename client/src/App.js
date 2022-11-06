@@ -7,6 +7,7 @@ import Contact from './components/ContactPage/Contact';
 import NavBar from './components/Nav/Nav';
 import UserInfo from './components/UserInfo/UserInfo';
 import TopAnime from './components/TopHundred/TopAnime';
+import Schedules from './components/schedule/Schedules';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/TopAnime' element={<TopAnime />}></Route>
+            <Route path='/Schedules' element={<Schedules />}></Route>
             <Route path='/UserInfo' element={<UserInfo />}></Route>
             <Route path='/Contact' element={<Contact />}></Route>
           </Routes>

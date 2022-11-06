@@ -11,6 +11,8 @@ function NavBar() {
                 <li><Link to="/">Home</Link></li>
                 
                 <li><Link to="/TopAnime">Top 25 Anime</Link></li>
+
+                <li><Link to="/Schedules">Season Now</Link></li>
                 
                 <li><Link to="/UserInfo">User Info</Link></li>
                 
