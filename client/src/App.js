@@ -8,6 +8,7 @@ import NavBar from './components/Nav/Nav';
 import UserInfo from './components/UserInfo/UserInfo';
 import TopAnime from './components/TopHundred/TopAnime';
 import Schedules from './components/schedule/Schedules';
+import TopRanks from './components/Rankings/TopRanks';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <NavBar />
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/TopRanks' element={<TopRanks />}></Route>
             <Route path='/TopAnime' element={<TopAnime />}></Route>
             <Route path='/Schedules' element={<Schedules />}></Route>
             <Route path='/UserInfo' element={<UserInfo />}></Route>

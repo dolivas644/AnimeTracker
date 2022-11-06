@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import SeasonList from './SeasonList';
+import './cards.css'
 
 const Schedules = () => {
 
@@ -15,10 +16,20 @@ const Schedules = () => {
     useEffect(()=>{
       getSeasonNow()
     },[])
+
   return (
     <div>
+      <div className='left'>
       <SeasonList season={season}/>
-    </div>
+      </div>
+      <div className='center'>
+
+      </div>
+      <div className='right'>
+        
+      </div>
+</div>
+      
   )
 }
 

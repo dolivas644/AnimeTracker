@@ -9,6 +9,8 @@ function NavBar() {
             <div className="navbar">
                 <ul>
                 <li><Link to="/">Home</Link></li>
+
+                <li><Link to="/TopRanks">Top Rankings</Link></li>
                 
                 <li><Link to="/TopAnime">Top 25 Anime</Link></li>
 
