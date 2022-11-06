@@ -6,6 +6,7 @@ import AnimeList from './components/AnimeList/AnimeList';
 import Contact from './components/ContactPage/Contact';
 import NavBar from './components/Nav/Nav';
 import UserInfo from './components/UserInfo/UserInfo';
+import TopAnime from './components/TopHundred/TopAnime';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <NavBar />
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/AnimeList' element={<AnimeList />}></Route>
+            <Route path='/TopAnime' element={<TopAnime />}></Route>
             <Route path='/UserInfo' element={<UserInfo />}></Route>
             <Route path='/Contact' element={<Contact />}></Route>
           </Routes>
