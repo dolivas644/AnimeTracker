@@ -12,7 +12,8 @@
     position: absolute;
     right:0px;
     width:50%;
-    top:30%;
+    top:10%;
+    display: block;
 }
 .contactUs{
     top:50%;

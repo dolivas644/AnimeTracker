@@ -54,6 +54,7 @@ export default function Contact() {
             <div className='container'>
                 <br></br>
                 <h2>Fill out this form to report any issues you may be experiencing</h2>
+                <br></br>
                 <form onSubmit={sendEmail}>
                     <div className='col-8 form-group mx-auto'>
                         <input type="text"

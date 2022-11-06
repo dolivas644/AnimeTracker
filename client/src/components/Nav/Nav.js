@@ -10,7 +10,7 @@ function NavBar() {
                 <ul>
                 <li><Link to="/">Home</Link></li>
                 
-                <li><Link to="/TopAnime">Top 100 Anime</Link></li>
+                <li><Link to="/TopAnime">Top 25 Anime</Link></li>
                 
                 <li><Link to="/UserInfo">User Info</Link></li>
                 
