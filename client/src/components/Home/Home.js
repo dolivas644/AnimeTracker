@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import './Search.css';
 import AnimeList from "../AnimeList/AnimeList";
@@ -74,6 +75,7 @@ function Home() {
         </div>
     </>
   );
+
 }
 
 export default Home;
