@@ -19,15 +19,7 @@ const Schedules = () => {
 
   return (
     <div>
-      <div className='left'>
-      <SeasonList season={season}/>
-      </div>
-      <div className='center'>
-
-      </div>
-      <div className='right'>
-        
-      </div>
+      <SeasonList season={season}/>   
 </div>
       
   )

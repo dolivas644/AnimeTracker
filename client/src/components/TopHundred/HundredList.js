@@ -29,7 +29,6 @@ const HundredList = ({ topAnime }) => {
                             </div>
                         </div>
                     </div>
-                    <br></br>
                 </>
 
             ))}
