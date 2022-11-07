@@ -12,12 +12,12 @@ const TopRanks = () => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
     // ...
-    //
+    
     const handleAnimeClick = async () => {
         // do whatever the "get top anime componet does and save it animeList
         setActiveContent('anime');
         setLoading(true);
-        const [animeList, err] = await fetchAnime();
+        const [animeList, err] = await fetchAnime(); // addAnimeToList(animeId);
         if (animeList) {
             setAnimeList(animeList);
         }
